@@ -36,7 +36,7 @@ body {
 }
 
 .card {
-  width: 50vw;
+  width: 30vw;
   aspect-ratio: 3/2;
   perspective: 1000px;
   margin-bottom: 5rem;
@@ -78,5 +78,9 @@ body {
 @media screen and (max-width: 600px) {
   .title {
     font-size: 5rem;
+  }
+
+  .card {
+    width: 50vw;
   }
 }
