@@ -9,11 +9,11 @@ html {
 }
 
 body {
-  padding-bottom: 30vh;
+  padding-bottom: 30rem;
 }
 
 .hero {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,7 +25,7 @@ body {
 }
 
 .arrow {
-  font-size: 100px;
+  font-size: 10rem;
 }
 
 .main {
@@ -36,7 +36,7 @@ body {
 }
 
 .card {
-  width: 30vw;
+  width: 60rem;
   aspect-ratio: 3/2;
   perspective: 1000px;
   margin-bottom: 5rem;
@@ -81,7 +81,7 @@ body {
   }
 
   .card {
-    width: 50vw;
+    width: 20rem;
   }
 
   .card-1-inner {
