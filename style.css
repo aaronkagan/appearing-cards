@@ -83,4 +83,14 @@ body {
   .card {
     width: 50vw;
   }
+
+  .card-1-inner {
+    background-image: url('./assets/images/mobile/open-arms.jpg');
+  }
+  .card-2-inner {
+    background-image: url('./assets/images/mobile/red-shoe.jpg');
+  }
+  .card-3-inner {
+    background-image: url('./assets/images/mobile/black-car.jpg');
+  }
 }
