@@ -7,7 +7,10 @@ const cards = [card1, card2, card3];
 const observer = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
-      entry.target.classList.toggle('appear', entry.isIntersecting);
+      if (entry.isIntersecting) {
+        entry.target.classList.add('appear');
+      }
+      // entry.target.classList.toggle('appear', entry.isIntersecting);
     });
   },
   {
